@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5842AB33-AF0B-4EE5-A703-FDCCD44BE81B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CREDITS.md = CREDITS.md
+		LICENSE = LICENSE
+		README.md = README.md
+		RELEASE_NOTES_GITHUB.md = RELEASE_NOTES_GITHUB.md
+		RELEASE_NOTES_NEXUS.md = RELEASE_NOTES_NEXUS.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_Mapper_Studio", "PZ_Mapper_Studio\PZ_Mapper_Studio.csproj", "{8385B7E6-1575-4084-8DF3-B0973DB98770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_Mapper_Converter", "PZ_Mapper_Converter\PZ_Mapper_Converter.csproj", "{EDB09697-2EA3-4FB1-B2D9-4DD175894DF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8385B7E6-1575-4084-8DF3-B0973DB98770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8385B7E6-1575-4084-8DF3-B0973DB98770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8385B7E6-1575-4084-8DF3-B0973DB98770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8385B7E6-1575-4084-8DF3-B0973DB98770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB09697-2EA3-4FB1-B2D9-4DD175894DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB09697-2EA3-4FB1-B2D9-4DD175894DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB09697-2EA3-4FB1-B2D9-4DD175894DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB09697-2EA3-4FB1-B2D9-4DD175894DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4575B413-C794-4452-8FAF-49EB14BC9E1E}
+	EndGlobalSection
+EndGlobal

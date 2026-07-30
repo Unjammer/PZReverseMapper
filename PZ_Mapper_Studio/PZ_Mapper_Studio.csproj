@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>PZReverseMapper</AssemblyName>
+    <Version>1.0.0</Version>
+    <Title>PZ Reverse Mapper</Title>
+    <Product>PZ Reverse Mapper</Product>
+    <Description>Reverse compiled Project Zomboid maps into editable TMX, PZW, TBX, images and tilesheets.</Description>
+    <ApplicationIcon>Assets\PZReverseMapper.ico</ApplicationIcon>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\PZReverseMapper.png" LogicalName="PZReverseMapper.png" />
+    <Compile Include="..\PZ_Mapper_Converter\*.cs"
+             Exclude="..\PZ_Mapper_Converter\Program.cs"
+             Link="Core\%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>
